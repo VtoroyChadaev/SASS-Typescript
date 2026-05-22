@@ -1,59 +1,59 @@
 # Лабораторная работа 4
 
 ## Структура проекта
-
-.
+lab4_repository/
+├── README.md
 ├── package.json
 ├── package-lock.json
-├── README.md
-├── SCSS_SASS
-│   ├── css
-│   │   ├── main.css
-│   │   ├── main.css.map
-│   │   ├── main-less.css
-│   │   ├── main-sass.css
-│   │   └── main-sass.css.map
-│   ├── layout.html
-│   ├── less
-│   │   ├── base.less
-│   │   ├── layout.less
-│   │   ├── main.less
-│   │   └── numbers.less
-│   ├── numbers.html
-│   ├── sass
-│   │   ├── _base.sass
-│   │   ├── _layout.sass
-│   │   ├── main.sass
-│   │   └── _numbers.sass
-│   └── scss
-│       ├── _base.scss
-│       ├── _layout.scss
-│       ├── main.scss
-│       └── _numbers.scss
-└── TypeScript
-    ├── dist
-    │   ├── binary-search-tree.js
-    │   ├── distance.js
-    │   ├── index.js
-    │   ├── patterns
-    │   │   ├── adapter.js
-    │   │   ├── observer.js
-    │   │   └── strategy.js
-    │   ├── user-interface.js
-    │   ├── user.js
-    │   └── user-type-alias.js
-    ├── src
-    │   ├── binary-search-tree.ts
-    │   ├── distance.ts
-    │   ├── index.ts
-    │   ├── patterns
-    │   │   ├── adapter.ts
-    │   │   ├── observer.ts
-    │   │   └── strategy.ts
-    │   ├── user-interface.ts
-    │   ├── user.ts
-    │   └── user-type-alias.ts
-    └── tsconfig.json
+├── .gitignore
+├── SCSS_SASS/
+│   ├── numbers.html
+│   ├── layout.html
+│   ├── scss/
+│   │   ├── main.scss
+│   │   ├── _base.scss
+│   │   ├── _numbers.scss
+│   │   └── _layout.scss
+│   ├── sass/
+│   │   ├── main.sass
+│   │   ├── _base.sass
+│   │   ├── _numbers.sass
+│   │   └── _layout.sass
+│   ├── less/
+│   │   ├── main.less
+│   │   ├── base.less
+│   │   ├── numbers.less
+│   │   └── layout.less
+│   └── css/
+│       ├── main.css
+│       ├── main.css.map
+│       ├── main-sass.css
+│       ├── main-sass.css.map
+│       └── main-less.css
+└── TypeScript/
+    ├── tsconfig.json
+    ├── src/
+    │   ├── index.ts
+    │   ├── user-interface.ts
+    │   ├── user-type-alias.ts
+    │   ├── user.ts
+    │   ├── distance.ts
+    │   ├── binary-search-tree.ts
+    │   └── patterns/
+    │       ├── adapter.ts
+    │       ├── strategy.ts
+    │       └── observer.ts
+    └── dist/
+        ├── index.js
+        ├── user-interface.js
+        ├── user-type-alias.js
+        ├── user.js
+        ├── distance.js
+        ├── binary-search-tree.js
+        └── patterns/
+            ├── adapter.js
+            ├── strategy.js
+            └── observer.js
 
 11 directories, 41 files
 
