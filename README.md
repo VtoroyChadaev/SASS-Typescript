@@ -1,7 +1,8 @@
 # Лабораторная работа 4
 
 ## Структура проекта
-lab4_repository/
+```text
+.
 ├── README.md
 ├── package.json
 ├── package-lock.json
@@ -54,6 +55,7 @@ lab4_repository/
             ├── adapter.js
             ├── strategy.js
             └── observer.js
+```
 
 11 directories, 41 files
 
