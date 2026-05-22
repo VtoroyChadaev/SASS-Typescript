@@ -1,0 +1,33 @@
+.create-number-colors(@n) when (@n <= 100) {
+  .number-@{n} {
+    color: rgb(@n, 256 - @n, 0);
+  }
+
+  .create-number-colors(@n + 1);
+}
+
+.numbers-page {
+  h1 {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .numbers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .number {
+    width: 44px;
+    padding: 8px 0;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+  }
+}
+
+.create-number-colors(1);

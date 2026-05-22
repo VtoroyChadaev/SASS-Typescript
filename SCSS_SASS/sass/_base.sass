@@ -1,0 +1,29 @@
+$background: #eeeeee
+$text-color: #222222
+$container-width: 860px
+$gap: 16px
+
+=block($height, $padding: 20px)
+  background-color: $background
+  min-height: $height
+  padding: $padding
+  box-sizing: border-box
+
+=flex-center
+  display: flex
+  align-items: center
+  justify-content: center
+
+*
+  box-sizing: border-box
+
+body
+  margin: 0
+  font-family: Arial, sans-serif
+  color: $text-color
+  background-color: #ffffff
+
+.page
+  width: min($container-width, calc(100% - 32px))
+  margin: 0 auto
+  padding: 32px 0

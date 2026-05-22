@@ -1,0 +1,49 @@
+@use "base" as *;
+
+.layout-page {
+  .site-header {
+    @include flex-center;
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: 28px;
+      line-height: 1.2;
+    }
+  }
+
+  .site-nav {
+    @include block(64px, 0);
+    @include flex-center;
+    gap: 22px;
+
+    a {
+      color: #6b4c8f;
+      font-size: 14px;
+      text-decoration: underline;
+    }
+  }
+
+  .feature {
+    @include block(170px);
+    margin-top: $gap;
+    text-align: center;
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $gap;
+    margin-top: $gap;
+
+    .column {
+      @include block(140px);
+      text-align: center;
+    }
+  }
+
+  .site-footer {
+    @include block(66px, 0);
+    @include flex-center;
+    margin-top: $gap;
+  }
+}

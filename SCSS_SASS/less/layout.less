@@ -1,0 +1,47 @@
+.layout-page {
+  .site-header {
+    .flex-center();
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: 28px;
+      line-height: 1.2;
+    }
+  }
+
+  .site-nav {
+    .block(64px, 0);
+    .flex-center();
+    gap: 22px;
+
+    a {
+      color: #6b4c8f;
+      font-size: 14px;
+      text-decoration: underline;
+    }
+  }
+
+  .feature {
+    .block(170px);
+    margin-top: @gap;
+    text-align: center;
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: @gap;
+    margin-top: @gap;
+
+    .column {
+      .block(140px);
+      text-align: center;
+    }
+  }
+
+  .site-footer {
+    .block(66px, 0);
+    .flex-center();
+    margin-top: @gap;
+  }
+}
