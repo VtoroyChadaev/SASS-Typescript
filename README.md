@@ -136,7 +136,7 @@ npm run less:build
 npm run less:watch
 ```
 
-## Задание 2 — TypeScript
+## Задание TypeScript
 
 ### (1) Компиляция TypeScript в JavaScript
 
