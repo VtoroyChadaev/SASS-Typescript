@@ -1,0 +1,22 @@
+{
+  "name": "lab4-scss-sass-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "scss:build": "sass SCSS_SASS/scss/main.scss SCSS_SASS/css/main.css",
+    "scss:watch": "sass --watch SCSS_SASS/scss/main.scss:SCSS_SASS/css/main.css",
+    "sass:build": "sass SCSS_SASS/sass/main.sass SCSS_SASS/css/main-sass.css",
+    "sass:watch": "sass --watch SCSS_SASS/sass/main.sass:SCSS_SASS/css/main-sass.css",
+    "less:build": "lessc SCSS_SASS/less/main.less SCSS_SASS/css/main-less.css",
+    "less:watch": "less-watch-compiler SCSS_SASS/less SCSS_SASS/css main.less",
+    "ts:build": "tsc -p TypeScript/tsconfig.json",
+    "ts:watch": "tsc -p TypeScript/tsconfig.json --watch",
+    "ts:start": "node TypeScript/dist/index.js"
+  },
+  "devDependencies": {
+    "less": "^4.2.0",
+    "less-watch-compiler": "^1.16.3",
+    "sass": "^1.77.0",
+    "typescript": "^5.5.0"
+  }
+}
